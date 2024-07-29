@@ -10,3 +10,18 @@ desenvolvido utilizando ```dev container ```
 # Criação de rotas
 
 Criando a roda padrão ```/ ```, com uma mensagem de Bem vindo!
+
+# Instalar dependencias
+
+Para instalar as dependencias da aplicação spring roda o comando
+
+```
+./mvnw install
+```
+
+# Iniciar 
+
+Para iniciar a aplicação rode o comando 
+```
+./mvnw spring-boot:run
+```
