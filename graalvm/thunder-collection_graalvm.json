@@ -1,0 +1,51 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "graalvm",
+    "collectionId": "5f836685-329d-4d8f-b228-e19783c085b1",
+    "dateExported": "2024-08-13T02:29:27.099Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "65555330-b404-43ed-8c9a-7f85ca5bce2a",
+            "name": "OlaMundo",
+            "containerId": "",
+            "created": "2024-08-13T02:15:27.684Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a6065794-5226-4c95-b21c-b3c3119330fb",
+            "colId": "5f836685-329d-4d8f-b228-e19783c085b1",
+            "containerId": "65555330-b404-43ed-8c9a-7f85ca5bce2a",
+            "name": "Get_OlaMundo",
+            "url": "{{url}}",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-13T02:15:42.466Z",
+            "modified": "2024-08-13T02:19:10.719Z",
+            "headers": [],
+            "tests": [
+                {
+                    "type": "res-code",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "200"
+                },
+                {
+                    "type": "res-body",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "Olá Mundo!"
+                },
+                {
+                    "type": "Content-Type",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "text/plain;charset=UTF-8"
+                }
+            ]
+        }
+    ],
+    "ref": "QHp0Oe_zwzLx0zVZiJ8YYMyHtlucUgjA-SPY48w5TwxBXrEjRW2x5Ij-RBDYY1KrNWZ9y9QURDLmtV9Yp8d0kQ"
+}
